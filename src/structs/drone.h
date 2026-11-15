@@ -7,7 +7,6 @@ typedef struct Location {
     float altitude;
 } Location;
 
-
 typedef struct Drone {
     int id;
     int status;
