@@ -8,6 +8,7 @@
 
 typedef struct TIEFighter {
     Starfighter starfighter;
+    int booster_charge;             // percentage of booster charge
 } TIEFighter;
 
 #endif

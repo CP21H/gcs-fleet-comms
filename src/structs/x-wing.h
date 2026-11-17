@@ -9,6 +9,7 @@
 typedef struct XWing {
     Starfighter starfighter;
     int shield_strength;            // percentage of shield strength
+    int hyperdrive_charge;          // percentage of hyperdrive charge
 } XWing;
 
 #endif

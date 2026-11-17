@@ -15,12 +15,12 @@ typedef struct FlightStatus {
     float roll;
     float pitch;
     float yaw;
+    float power_level;          // percentage of power level
 } FlightStatus;
 
 typedef struct DefenseStatus {
     int hull_integrity;             // percentage of hull integrity
-    int hyperdrive_charge;          // percentage of hyperdrive charge
-    int astromech_status;   // 0 = offline, 1 = online
+    int astromech_status;           // 0 = offline, 1 = online
     int countermeasures_status;     // 0 = offline, 1 = online
 } DefenseStatus;
 
